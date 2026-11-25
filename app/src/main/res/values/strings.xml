@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">SLN Cloth Shop</string>
+
+    <!-- Setup / mode -->
+    <string name="setup_title">Shop setup</string>
+    <string name="setup_mode_main">Main phone (runs the shop server)</string>
+    <string name="setup_mode_client">Other phone (connects to main phone)</string>
+    <string name="setup_create_shop">Create shop</string>
+    <string name="setup_create_owner">Create owner account</string>
+    <string name="setup_owner_pin">Owner PIN (at least 4 digits)</string>
+    <string name="setup_confirm_pin">Confirm PIN</string>
+    <string name="setup_shop_name">Shop name</string>
+    <string name="setup_shop_address">Address</string>
+    <string name="setup_owner_name">Owner name</string>
+    <string name="setup_start_server">Start local server</string>
+    <string name="setup_pair">Pair with main phone</string>
+    <string name="setup_scan_qr">Scan QR code</string>
+    <string name="setup_enter_manually">Enter address manually</string>
+    <string name="setup_hotspot_step">Turn on this phone’s hotspot in Android settings, then start the server.</string>
+    <string name="setup_client_step">Connect to the main phone’s hotspot in Android settings, then pair.</string>
+    <string name="setup_status_connected">Connected</string>
+    <string name="setup_status_connecting">Connecting…</string>
+    <string name="setup_status_unavailable">Server unavailable</string>
+    <string name="setup_retry">Retry</string>
+    <string name="setup_troubleshoot">Troubleshooting</string>
+
+    <!-- Server -->
+    <string name="server_status">Server status</string>
+    <string name="server_start">Start server</string>
+    <string name="server_stop">Stop server</string>
+    <string name="server_address">Address</string>
+    <string name="server_port">Port</string>
+    <string name="server_show_qr">Show pairing QR</string>
+    <string name="server_devices">Paired devices</string>
+    <string name="server_revoke">Revoke</string>
+    <string name="server_no_devices">No paired devices</string>
+
+    <!-- New bill -->
+    <string name="new_bill_title">New bill</string>
+    <string name="search_customer">Search customer by name or mobile</string>
+    <string name="add_customer">Add customer</string>
+    <string name="wallet_balance">Wallet balance</string>
+    <string name="category">Category</string>
+    <string name="secret_code">Item code</string>
+    <string name="secret_code_masked">••••</string>
+    <string name="qty">Qty</string>
+    <string name="unit_price">Price</string>
+    <string name="line_total">Total</string>
+    <string name="add_item">Add item</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="wallet_used">Wallet used</string>
+    <string name="net_paid">Net paid</string>
+    <string name="cashback">Cashback earned</string>
+    <string name="payment_method">Payment method</string>
+    <string name="confirm_bill">Confirm bill</string>
+    <string name="receipt_shared">Receipt ready to share</string>
+    <string name="code_invalid">Unrecognised code. Try again.</string>
+    <string name="override_authorized">Authorized price override</string>
+
+    <!-- Records -->
+    <string name="records_title">Records</string>
+    <string name="tab_customers">Customers</string>
+    <string name="tab_bills">Bills</string>
+    <string name="tab_wallet">Wallet</string>
+    <string name="bill_detail">Bill detail</string>
+    <string name="reverse_bill">Reverse bill</string>
+    <string name="reverse_reason">Reason</string>
+    <string name="reverse_confirm">Confirm reversal</string>
+    <string name="adjust_wallet">Adjust wallet</string>
+    <string name="adjust_reason">Reason</string>
+    <string name="adjust_amount">Amount (paise)</string>
+
+    <!-- Overview -->
+    <string name="overview_title">Overview</string>
+    <string name="overview_sales">Sales</string>
+    <string name="overview_cost">Buying cost</string>
+    <string name="overview_profit">Profit</string>
+    <string name="overview_markup">Markup</string>
+    <string name="overview_margin">Margin</string>
+    <string name="overview_owner_only">Owner only</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_restore">Restore</string>
+    <string name="settings_passphrase">Backup passphrase</string>
+    <string name="settings_change_pin">Change owner PIN</string>
+    <string name="settings_markup">Default markup (%)</string>
+    <string name="settings_cashback">Default cashback (%)</string>
+    <string name="settings_demo_mode">Demo mode (sample data)</string>
+    <string name="settings_no_backup">No backup yet</string>
+    <string name="settings_backup_last">Last backup: %1$s</string>
+
+    <!-- Generic -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="error">Error</string>
+    <string name="network_error">Could not reach the server</string>
+    <string name="unauthorized">Not authorized</string>
+    <string name="refresh">Refresh</string>
+    <string name="draft_saved">Draft saved locally</string>
+    <string name="draft_unsent">Unsent draft</string>
+
+</resources>
